@@ -1,0 +1,9 @@
+{
+	"conexion":{
+			"server" : "localhost",
+			"user" : "uned_usr",
+			"password" : "56Uh/EGP28n9StcY",
+			"database" :"stores_db",
+			"port" : "3306"
+	}
+} 
