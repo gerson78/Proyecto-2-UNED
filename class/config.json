@@ -1,9 +1,9 @@
 {
 	"conexion":{
-			"server" : "saikou-server.mysql.database.azure.com",
-			"user" : "gcswgkchib",
-			"password" : "WU07EZ136AF4Y86J$",
-			"database" :"saikou-database",
+			"server" : "mz-test-mysql01.mysql.database.azure.com",
+			"user" : "gerson-root@mz-test-mysql01",
+			"password" : "Unicode78g7737cr",
+			"database" :"stores_db",
 			"port" : "3306"
 	}
 } 
