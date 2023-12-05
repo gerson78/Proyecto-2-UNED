@@ -1,3 +1,4 @@
+<?php  session_start() ; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -22,7 +23,7 @@
 
 <body>
 <?php
- session_start() ;
+
 //requerimos el archivo conexion
 require_once 'class/database.php';
 //instanciamos la clase conexion
