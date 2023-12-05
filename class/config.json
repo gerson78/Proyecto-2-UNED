@@ -1,9 +1,9 @@
 {
 	"conexion":{
-			"server" : "localhost",
-			"user" : "uned_usr",
-			"password" : "56Uh/EGP28n9StcY",
-			"database" :"stores_db",
+			"server" : "saikou-server.mysql.database.azure.com",
+			"user" : "gcswgkchib",
+			"password" : "WU07EZ136AF4Y86J$",
+			"database" :"saikou-database",
 			"port" : "3306"
 	}
 } 
