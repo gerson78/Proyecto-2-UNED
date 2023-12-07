@@ -9,7 +9,7 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title  -->
-    <title>PixelBazaar</title>
+    <title>Saikou Games</title>
 
     <!-- Favicon  -->
     <link rel="icon" href="img/core-img/logo-peq_pixel.png">
