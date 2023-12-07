@@ -154,7 +154,7 @@
                         <div class="single_product_thumb">
                             <div id="product_details_slider" class="carousel slide" data-ride="carousel">
                                 <ol class="carousel-indicators">
-                                    <li class="active" data-target="#product_details_slider" data-slide-to="0" style="background-image: url(img/product-img/<?php echo $imagen; ?>);">
+                                    <li class="active" data-target="#product_details_slider" data-slide-to="0" style="background-image: url(img/product-img/<?php echo  $codigo.'/'.$imagen; ?>);">
                                     </li>
                                     <li data-target="#product_details_slider" data-slide-to="1" style="background-image: url(img/product-img/<?php echo $codigo.'/'.$imagen2; ?>);">
                                     </li>
@@ -165,23 +165,23 @@
                                 </ol>
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <a class="gallery_img" href="img/product-img/<?php echo $imagen; ?>">
-                                            <img class="d-block w-100" src="img/product-img/<?php echo $imagen; ?>" alt="First slide">
+                                        <a class="gallery_img" href="img/product-img/<?php echo $codigo.'/'.$imagen; ?>">
+                                            <img class="d-block w-100" src="img/product-img/<?php echo $codigo.'/'.$imagen; ?>" alt="First slide">
                                         </a>
                                     </div>
                                     <div class="carousel-item">
-                                        <a class="gallery_img" href="img/product-img/<?php echo $imagen2; ?>">
-                                            <img class="d-block w-100" src="img/product-img/<?php echo $imagen2; ?>"  alt="Second slide">
+                                        <a class="gallery_img" href="img/product-img/<?php echo $codigo.'/'.$imagen2; ?>">
+                                            <img class="d-block w-100" src="img/product-img/<?php echo $codigo.'/'.$imagen2; ?>"  alt="Second slide">
                                         </a>
                                     </div>
                                     <div class="carousel-item">
-                                        <a class="gallery_img" href="img/product-img/<?php echo $imagen3; ?>">
-                                            <img class="d-block w-100" src="img/product-img/<?php echo $imagen3; ?>" alt="Third slide">
+                                        <a class="gallery_img" href="img/product-img/<?php echo $codigo.'/'.$imagen3; ?>">
+                                            <img class="d-block w-100" src="img/product-img/<?php echo $codigo.'/'.$imagen3; ?>" alt="Third slide">
                                         </a>
                                     </div>
                                     <div class="carousel-item">
-                                        <a class="gallery_img" href="img/product-img/<?php echo $imagen; ?>">
-                                            <img class="d-block w-100" src="img/product-img/<?php echo $imagen; ?>" alt="Fourth slide">
+                                        <a class="gallery_img" href="img/product-img/<?php echo $codigo.'/'.$imagen; ?>">
+                                            <img class="d-block w-100" src="img/product-img/<?php echo $codigo.'/'.$imagen; ?>" alt="Fourth slide">
                                         </a>
                                     </div>
                                 </div>
