@@ -269,7 +269,7 @@
                 <div class="col-12 col-lg-6 col-xl-5">
                     <div class="newsletter-form mb-100">
                         <form action="#" method="post">
-                            <input type="email" name="email" class="nl-email" placeholder="Your E-mail">
+                            <input type="email" name="email" class="nl-email" placeholder="Su correo aquí..">
                             <input type="submit" value="Subscribe">
                         </form>
                     </div>
@@ -279,8 +279,8 @@
     </section>
     <!-- ##### Newsletter Area End ##### -->
 
-    <!-- ##### Footer Area Start ##### -->
-    <footer class="footer_area clearfix">
+     <!-- ##### Footer Area Start ##### -->
+     <footer class="footer_area clearfix">
         <div class="container">
             <div class="row align-items-center">
                 <!-- Single Widget Area -->
