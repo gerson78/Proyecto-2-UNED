@@ -246,12 +246,9 @@
                                         <a href="index.php" class="btn amado-btn w-100"> <i class="fa fa-shopping-cart" aria-hidden="true"></i>  Seguir comprando</a>
                             </div>
                         </div>                        
-                    </div>
-                
-                </div>
+                    </div>                
+                </div>              
         </div>
-       
-    </div>
     <!-- ##### Main Content Wrapper End ##### -->
 
 
