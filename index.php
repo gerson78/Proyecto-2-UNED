@@ -63,7 +63,7 @@ $id_sesionWeb = session_id();
         <div class="mobile-nav">
             <!-- Navbar Brand -->
             <div class="amado-navbar-brand">
-                <a href="index.php"><img src="img/core-img/logo-med.PNG" alt=""></a>
+                <a href="index.php"><img src="img/core-img/logo-mediano_pixel.png" alt=""></a>
             </div>
             <!-- Navbar Toggler -->
             <div class="amado-navbar-toggler">

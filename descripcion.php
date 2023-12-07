@@ -86,7 +86,7 @@
             </div>
             <!-- Logo -->
             <div class="logo">
-            <a href="index.php"><img src="img/core-img/logo-med.png" alt=""></a>
+            <a href="index.php"><img src="img/core-img/logo-mediano_pixel.png" alt=""></a>
             </div>
              <!-- MENU  -->
              <?php include('menu.php');?>
