@@ -156,11 +156,11 @@
                                 <ol class="carousel-indicators">
                                     <li class="active" data-target="#product_details_slider" data-slide-to="0" style="background-image: url(img/product-img/<?php echo $imagen; ?>);">
                                     </li>
-                                    <li data-target="#product_details_slider" data-slide-to="1" style="background-image: url(img/product-img/<?php echo $imagen2; ?>);">
+                                    <li data-target="#product_details_slider" data-slide-to="1" style="background-image: url(img/product-img/<?php echo $codigo.'/'.$imagen2; ?>);">
                                     </li>
-                                    <li data-target="#product_details_slider" data-slide-to="2" style="background-image: url(img/product-img/<?php echo $imagen3; ?>);">
+                                    <li data-target="#product_details_slider" data-slide-to="2" style="background-image: url(img/product-img/<?php echo $codigo.'/'.$imagen3; ?>);">
                                     </li>
-                                    <li data-target="#product_details_slider" data-slide-to="3" style="background-image: url(img/product-img/<?php echo $imagen; ?>);">
+                                    <li data-target="#product_details_slider" data-slide-to="3" style="background-image: url(img/product-img/<?php echo $codigo.'/'.$imagen; ?>);">
                                     </li>
                                 </ol>
                                 <div class="carousel-inner">
