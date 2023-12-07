@@ -103,7 +103,7 @@
         <div class="mobile-nav">
             <!-- Navbar Brand -->
             <div class="amado-navbar-brand">
-                <a href="index.php"><img src="img/core-img/logo-peq.png" alt=""></a>
+                <a href="index.php"><img src="img/core-img/logo-peq_pixel.png" alt=""></a>
             </div>
             <!-- Navbar Toggler -->
             <div class="amado-navbar-toggler">
@@ -119,7 +119,7 @@
             </div>
             <!-- Logo -->
             <div class="logo">
-            <a href="index.php"><img src="img/core-img/logo-peq.png" alt=""></a>
+            <a href="index.php"><img src="img/core-img/logo-peq_pixel.png" alt=""></a>
             </div>
              <!-- MENU  -->
              <?php include('menu.php');?>
@@ -247,8 +247,10 @@
                             </div>
                         </div>                        
                     </div>                
-                </div>              
+                </div>
+                    
         </div>
+    </div>
     <!-- ##### Main Content Wrapper End ##### -->
 
 

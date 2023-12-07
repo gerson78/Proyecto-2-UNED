@@ -150,7 +150,7 @@
         <div class="mobile-nav">
             <!-- Navbar Brand -->
             <div class="amado-navbar-brand">
-                <a href="index.php"><img src="img/core-img/logo-peq.png" alt=""></a>
+                <a href="index.php"><img src="img/core-img/logo-peq_pixel.png" alt=""></a>
             </div>
             <!-- Navbar Toggler -->
             <div class="amado-navbar-toggler">
@@ -270,7 +270,7 @@
                     <div class="single_widget_area">
                         <!-- Logo -->
                         <div class="footer-logo mr-50">
-                            <a href="index.php"><img src="img/core-img/logo-peq.png" alt=""></a>
+                            <a href="index.php"><img src="img/core-img/logo-peq_pixel.png" alt=""></a>
                         </div>
                         <!-- Copywrite Text -->
                         <p class="copywrite"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
