@@ -10,10 +10,10 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title  -->
-    <title>harmony furniture</title>
+    <title>PixelBazaar</title>
 
     <!-- Favicon  -->
-    <link rel="icon" href="img/core-img/logo-peq.png">
+    <link rel="icon" href="img/core-img/logo-peq_pixel.png">
 
     <!-- Core Style CSS -->
     <link rel="stylesheet" href="css/core-style.css">
@@ -79,7 +79,7 @@ $id_sesionWeb = session_id();
             </div>
             <!-- Logo -->
             <div class="logo">
-            <a href="index.php"><img src="img/core-img/logo-med.png" alt=""></a>
+            <a href="index.php"><img src="img/core-img/logo-mediano_pixel.png" alt=""></a>
             </div>
              <!-- MENU  -->
              <?php include('menu.php');?>
@@ -182,7 +182,7 @@ $id_sesionWeb = session_id();
                     <div class="single_widget_area">
                         <!-- Logo -->
                         <div class="footer-logo mr-50">
-                            <a href="index.php"><img src="img/core-img/logo-peq.png" alt=""></a>
+                            <a href="index.php"><img src="img/core-img/logo-mediano_pixel.png" alt=""></a>
                         </div>
                         <!-- Copywrite Text -->
                         <p class="copywrite"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
