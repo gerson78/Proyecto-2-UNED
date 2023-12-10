@@ -238,12 +238,12 @@
                        
 
                                 <div class="cart-btn mt-100">
-                                    <a href="checkout.php" class="btn amado-btn w-100"><i class="fa fa-credit-card" aria-hidden="true"></i> Pagar</a>
+                                    <a href="checkout.php" class="btn amado-btn active"><i class="fa fa-credit-card" aria-hidden="true"></i> Pagar</a>
                                 </div>
                            
                  
                             <div class="cart-btn mt-100">
-                                        <a href="index.php" class="btn amado-btn w-100"> <i class="fa fa-shopping-cart" aria-hidden="true"></i>  Seguir comprando</a>
+                                        <a href="index.php" class="btn amado-btn active"> <i class="fa fa-shopping-cart" aria-hidden="true"></i>  Seguir comprando</a>
                             </div>
                         </div>                        
                     </div>                

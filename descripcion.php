@@ -240,7 +240,7 @@
                                         <span class="qty-plus" onclick="var effect = document.getElementById('qty'); var qty = effect.value; if( !isNaN( qty )) effect.value++;return false;"><i class="fa fa-caret-up" aria-hidden="true"></i></span> 
                                    </div>
                                 </div>
-                                <button type="submit" name="addtocart" value="5" class="btn amado-btn">Comprar</button>
+                                <button type="submit" name="addtocart" value="5" class="btn amado-btn active">Comprar</button>
                             </form>
 
                         </div>

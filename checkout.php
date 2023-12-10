@@ -292,7 +292,7 @@
                                     <?php
                                     }else{
                                     ?>
-                                    <div class="cart-btn mt-100">
+                                    <div class="cart-btn acive">
                                         <a href="checkout.php" class="btn disabled amado-btn w-100" ><i class="fa fa-credit-card" aria-hidden="true"></i> Pagar</a>
                                     </div>
                                     <?php
