@@ -119,26 +119,26 @@
             </div>
             <!-- Logo -->
             <div class="logo">
-            <a href="index.php"><img src="img/core-img/logo-peq_pixel.png" alt=""></a>
+                <a href="index.php"><img src="img/core-img/logo-peq_pixel.png" alt=""></a>
             </div>
              <!-- MENU  -->
-             <?php include('menu.php');?>
+                    <?php include('menu.php');?>
             <!-- Button Group -->
             <div class="amado-btn-group mt-30 mb-100">
-            <?php 
-                    $queryArticulos= "SELECT sum(cantidad) as total_articulos
-                    FROM `carrito` C where C.sesion_web = '$id_sesionWeb';";
+                    <?php 
+                        $queryArticulos= "SELECT sum(cantidad) as total_articulos
+                        FROM `carrito` C where C.sesion_web = '$id_sesionWeb';";
 
-                    $ArticulosCarrito = $_conexion->obtenerDatos($queryArticulos);
+                        $ArticulosCarrito = $_conexion->obtenerDatos($queryArticulos);
 
-                    foreach ($ArticulosCarrito as $row)
-                            {
-                                $total_articulos = $row["total_articulos"];
-                            }
-                ?>
-                <a href="carrito.php" class="btn amado-btn mb-15"><img src="img/core-img/cart.png" alt=""> Carrito <span>(<?php echo $total_articulos; ?>)</span></a>
+                        foreach ($ArticulosCarrito as $row)
+                                {
+                                    $total_articulos = $row["total_articulos"];
+                                }
+                    ?>
+                    <a href="carrito.php" class="btn amado-btn mb-15"><img src="img/core-img/cart.png" alt=""> Carrito <span>(<?php echo $total_articulos; ?>)</span></a>
 
-                <a href="index.php" class="btn amado-btn active">SALE</a>
+              
             </div>
 
             <!-- Social Button -->
@@ -153,13 +153,13 @@
 
         <div class="cart-table-area section-padding-100">
             <div class="container-fluid">
-            <?php 
-             $query= "SELECT C.cod_producto,Cat.precio, Cat.descripcion, Cat.imagen, C.cantidad FROM `carrito` C 
-             inner join catalogo Cat ON Cat.codigo = C.cod_producto
-             where C.sesion_web = '$id_sesionWeb'";
+                <?php 
+                $query= "SELECT C.cod_producto,Cat.precio, Cat.descripcion, Cat.imagen, C.cantidad FROM `carrito` C 
+                inner join catalogo Cat ON Cat.codigo = C.cod_producto
+                where C.sesion_web = '$id_sesionWeb'";
 
-             $datosRecibidos = $_conexion->obtenerDatos($query);
-            ?>
+                $datosRecibidos = $_conexion->obtenerDatos($query);
+                ?>
 
            
                 <div class="row">
@@ -180,36 +180,36 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                <?php
-                                    foreach ($datosRecibidos as $row)
+                                    <?php
+                                        foreach ($datosRecibidos as $row)
                                         {
                                     
-                                        // echo $row["cod_producto"]." ".$row["descripcion"].PHP_EOL;
-                                        $codigo = $row["cod_producto"];
-                                        $cantidad = $row["cantidad"];
-                                        $precio = $row["precio"];
-                                        $descripcion = $row["descripcion"];
-                                        $imagen = $row["imagen"];
+                                                // echo $row["cod_producto"]." ".$row["descripcion"].PHP_EOL;
+                                                $codigo = $row["cod_producto"];
+                                                $cantidad = $row["cantidad"];
+                                                $precio = $row["precio"];
+                                                $descripcion = $row["descripcion"];
+                                                $imagen = $row["imagen"];
 
-                                ?>
-                                    <tr>
-                                        <td class="cart_product_img">
-                                            <a href="descripcion.php?item=<?php echo $codigo; ?>"><img src="img/bg-img/<?php echo $imagen; ?>" alt="Product"></a>
-                                        </td>
-                                        <td class="cart_product_desc">
-                                            <h5><?php echo $descripcion; ?></h5>
-                                        </td>
-                                        <td class="price">
-                                            <span>$<?php echo $precio; ?></span>
-                                        </td>
-                                        <td class="qty">
-                                            <span class="qty-text" ><?php echo $cantidad; ?> </span>
-                                            <span class="qty-text" ><a href="carrito.php?descartar=1&codigo=<?php echo $codigo; ?>"><i class="fa fa-trash-o fa-lg"></i> Descartar</a></a></span>
-                                        </td>
-                                    </tr>
-                                <?php
+                                            ?>
+                                            <tr>
+                                                <td class="cart_product_img">
+                                                    <a href="descripcion.php?item=<?php echo $codigo; ?>"><img src="img/bg-img/<?php echo $imagen; ?>" alt="Product"></a>
+                                                </td>
+                                                <td class="cart_product_desc">
+                                                    <h5><?php echo $descripcion; ?></h5>
+                                                </td>
+                                                <td class="price">
+                                                    <span>$<?php echo $precio; ?></span>
+                                                </td>
+                                                <td class="qty">
+                                                    <span class="qty-text" ><?php echo $cantidad; ?> </span>
+                                                    <span class="qty-text" ><a href="carrito.php?descartar=1&codigo=<?php echo $codigo; ?>"><i class="fa fa-trash-o fa-lg"></i> Descartar</a></a></span>
+                                                </td>
+                                            </tr>
+                                            <?php
                                         }
-                                ?>                                    
+                                    ?>                                    
                                 </tbody>
                             </table>
                         </div>
@@ -249,6 +249,7 @@
                     </div>                
                 </div>
                     
+            </div>
         </div>
     </div>
     <!-- ##### Main Content Wrapper End ##### -->
