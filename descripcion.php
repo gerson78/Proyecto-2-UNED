@@ -103,9 +103,9 @@
                                 $total_articulos = $row["total_articulos"];
                             }
                 ?>
-                <a href="carrito.php" class="btn amado-btn mb-15"><img src="img/core-img/cart.png" alt=""> Carrito <span>(<?php echo $total_articulos; ?>)</span></a>
+                <a href="carrito.php" class="btn amado-btn mb-15"><img src="img/core-img/cart.png" alt="Carrito"> Carrito <span>(<?php echo $total_articulos; ?>)</span></a>
 
-                <a href="index.php" class="btn amado-btn active">SALE</a>
+                <a href="carrito.php?descartar=0" class="btn amado-btn active"><img src="img/core-img/cart.png" alt="Carrito"> Carrito <span>(<?php echo $total_articulos; ?>)</span></a>
             </div>
 
             <!-- Social Button -->
@@ -142,7 +142,7 @@
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb mt-50">
                                 <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-                                <li class="breadcrumb-item"><a href="index.php">Furniture</a></li>
+                                <li class="breadcrumb-item"><a href="index.php">GAME</a></li>
                                 <li class="breadcrumb-item"><a href="#"><?php echo $descripcion; ?></a></li>
                             </ol>
                         </nav>
