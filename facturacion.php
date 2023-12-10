@@ -238,13 +238,13 @@
                                         ?>
                                         
                                         <div class="col-12 mb-3">                                        
-                                            <input type="submit" value="pagar" name="pagar" class="btn amado-btn w-100">
+                                            <input type="submit" value="pagar" name="pagar" class="btn amado-btn active w-100">
                                         </div>
                                         <?php
                                         }else{
                                         ?>
                                         <div class="cart-btn mt-100">
-                                            <input type="submit" value="pagar" name="pagar" class="btn disabled amado-btn w-100">
+                                            <input type="submit" value="pagar" name="pagar" class="btn disabled w-100">
                                         </div>
                                         <?php
                                         }                            
