@@ -180,7 +180,7 @@
                                 <?php
                                     if ($registrado <> 0){
                                     ?>
-                                     <h2><?php echo $nueva_nombre; ?> ya tienes una cuenta. </h2>
+                                     <h2>Adelante <?php echo $nueva_nombre; ?> ya tienes una cuenta. </h2>
                                 <?php
                                     }else{
                                     ?>
@@ -231,7 +231,7 @@
                                     </div>
 
                                     <div class="col-12 mb-3">                                        
-                                        <input type="submit" value="Registrar cliente" class="btn amado-btn w-100">
+                                        <input type="submit" value="Registrar cliente" class="btn amado-btn active">
                                     </div>
 
                                    
@@ -286,13 +286,13 @@
                                         <li><span>Direccion de entrega:</span> <span><?php echo $nueva_direccion; ?></span></li>
                                     </ul>
                                     <div class="cart-btn mt-100">
-                                        <input type="submit" value="Pagar" class="btn amado-btn w-100">
+                                        <input type="submit" value="Pagar" class="btn amado-btn active">
                                         
                                     </div>
                                     <?php
                                     }else{
                                     ?>
-                                    <div class="cart-btn acive">
+                                    <div class="cart-btn mt-100">
                                         <a href="checkout.php" class="btn disabled amado-btn w-100" ><i class="fa fa-credit-card" aria-hidden="true"></i> Pagar</a>
                                     </div>
                                     <?php
@@ -302,7 +302,7 @@
                                
                             </div>
                                 <div class="cart-btn mt-100">
-                                    <a href="index.php" class="btn amado-btn w-100"> <i class="fa fa-shopping-cart" aria-hidden="true"></i>  Seguir comprando</a>
+                                    <a href="index.php" class="btn amado-btn active"> <i class="fa fa-shopping-cart" aria-hidden="true"></i>  Seguir comprando</a>
                                 </div>
                     </div>   
                 </div>
