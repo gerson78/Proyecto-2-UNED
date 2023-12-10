@@ -98,7 +98,7 @@ $id_sesionWeb = session_id();
                 ?>
 
                 <a href="carrito.php?descartar=0" class="btn amado-btn active"><img src="img/core-img/cart.png" alt="Carrito"> Carrito <span>(<?php echo $total_articulos; ?>)</span></a>
-            </div>  
+            </div> 
 
             <!-- Social Button -->
             <div class="social-info d-flex justify-content-between">
