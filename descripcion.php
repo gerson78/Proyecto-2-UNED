@@ -103,7 +103,6 @@
                                 $total_articulos = $row["total_articulos"];
                             }
                 ?>
-                <a href="carrito.php" class="btn amado-btn mb-15"><img src="img/core-img/cart.png" alt="Carrito"> Carrito <span>(<?php echo $total_articulos; ?>)</span></a>
 
                 <a href="carrito.php?descartar=0" class="btn amado-btn active"><img src="img/core-img/cart.png" alt="Carrito"> Carrito <span>(<?php echo $total_articulos; ?>)</span></a>
             </div>
