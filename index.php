@@ -7,6 +7,8 @@
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title  -->
@@ -18,7 +20,7 @@
     <!-- Core Style CSS -->
     <link rel="stylesheet" href="css/core-style.css">
     <link rel="stylesheet" href="style.css">
-
+    
 </head>
 
 <body>
@@ -35,6 +37,7 @@ $_conexion = new conexion;
 //imprimimos el resultado
 $id_sesionWeb = session_id();
 // print_r($datosRecibidos);
+
 ?> 
     <!-- Search Wrapper Area Start -->
     <div class="search-wrapper section-padding-100">
@@ -106,7 +109,10 @@ $id_sesionWeb = session_id();
                 <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                 <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                 <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-            </div>
+                </div>
+            <div>
+            <iframe width="300" height="650" src="https://5b96f753.sibforms.com/serve/MUIFAOAaH_MBJ8QwYm8LJJloCiBRhBA9UlvqCuPXqimlbIk0jjS_IdYIiqlGeT5sJlB07JQGGl8fblB84MIi2YDi__C0LAOWSmZCO4EbMaugWjyqFkHW6V00BTEttE-iPsBlXiBfi0WiBicsKVcv5UCwKOszmPIlG-vOSVo3PHS5b2uVruLhXi4e2eNxT6KMtkU2_Ton4qYWvaPP" frameborder="0" scrolling="auto" allowfullscreen style="display: block;margin-left: auto;margin-right: auto;max-width: 100%;"></iframe>
+            </div>    
         </header>
         <!-- Header Area End -->
 
@@ -130,6 +136,7 @@ $id_sesionWeb = session_id();
                     <div class="single-products-catagory clearfix">
                         <a href="descripcion.php?item=<?php echo $codigo; ?>">
                             <img src="img/bg-img/<?php echo $imagen; ?>" alt="">
+                           
                             <!-- Hover Content -->
                             <div class="hover-content">
                                 <div class="line"></div>
